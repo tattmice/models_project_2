@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+}
+h1 {
+  font-family: Consolas;
+  text-align: center;
+  margin-top: 30px;
+}
+#clear {
+  font-family: Consolas;
+  font-size: 20pt;
+  border: 2px solid black;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+#clear:hover {
+  background-color: white;
+}
+.mainbody {
+  position: absolute;
+  top: 100px; /* Header Height */
+  bottom: 0; /* Footer Height */
+  width: 100%;
+  background-color: #87CEEB;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+canvas {
+  position:absolute; top:0px; left:0px;
+}
+#treecanvas {
+  z-index: 10;
+}
